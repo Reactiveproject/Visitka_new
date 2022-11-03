@@ -1,0 +1,129 @@
+@font-face {
+  font-family: "Noto Serif Display", serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "STIX Two Text", serif;
+  src: url(https://fonts.googleapis.com/css2?family=Noto+Serif+Display&family=Open+Sans&family=STIX+Two+Text:wght@600&display=swap);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+.h1 {
+  margin: 5px;
+  text-align: center;
+  font-family: "STIX Two Text", serif;
+  font-size: 35px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 40%;
+  margin: 10px;
+  min-width: 300px;
+}
+
+.photo {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.about {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about_list {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(46, 80, 131);
+  color: white;
+  font-size: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.about_list:hover {
+  box-shadow: 4px 4px 10px #000;
+}
+
+.about_list_h2 {
+  padding: 5px 5px 5px 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.about_list_h2 > h2 {
+  margin: 0px;
+  text-align: center;
+}
+
+.about_list_text {
+  padding: 5px 5px 5px 10px;
+  font-size: 13x;
+}
+
+.nav {
+  background-color: rgb(100, 42, 42);
+  position: sticky;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.nav > a {
+  color: white;
+  width: 200px;
+  height: 20px;
+  padding: 5px;
+  margin: 10px;
+  text-decoration: none;
+  transition: color 0.4s;
+}
+
+.nav > a:hover {
+  color: gold;
+}
+.nav > a:active {
+  color: rgb(255, 0, 0);
+}
+
+.footer {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(45, 70, 44);
+  text-align: center;
+  border-radius: 5px;
+}
+
+.h2footer {
+  padding-top: 15px;
+  font-size: 18px;
+  color: white;
+}
+
+.footer_inf {
+  display: inline-block;
+  width: 300px;
+  color: white;
+  margin: 10px;
+}
+.footer_inf > a {
+  text-decoration: none;
+  color: white;
+}
